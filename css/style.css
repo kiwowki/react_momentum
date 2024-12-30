@@ -1,0 +1,54 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+li,
+ul {
+    list-style-type: none;
+}
+
+#todo-list span {
+    border-bottom: 1px solid white;
+    margin-right: 8px;
+}
+
+input {
+    width: calc(100% - 30px);
+    padding: 8px 15px;
+    border-radius: 15px;
+
+    border: none;
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1180px;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#todo-form {
+    width: 100%;
+}
